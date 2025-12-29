@@ -24,7 +24,7 @@ with st.sidebar.expander("Tools Used"):
 
 
 with st.sidebar.expander("Sustainable Development Goals (SDGs) 🌏"):
-    st.write("SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security. \n SDG 13: Climate Action – Reduce resource wastage and optimize farming. \n SDG 15: Life on Land – Sustainably manage soil and land resources.")  
+    st.write("- SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security. \n- SDG 13: Climate Action – Reduce resource wastage and optimize farming. \n- SDG 15: Life on Land – Sustainably manage soil and land resources.")  
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Created by [Lakshitha M](https://github.com/lakshm22)")
