@@ -17,6 +17,7 @@ with st.sidebar:
     st.write("""
     Classifies soil and suggests suitable crops with detailed growing tips.
     """)
+    st.sidebar.markdown("---")
     
     st.subheader("⚒️ Tech Stack")
     st.write("- Python") 
@@ -24,6 +25,7 @@ with st.sidebar:
     st.write("- Streamlit")
     st.write("- Pandas")
     st.write("- NumPy")
+    st.sidebar.markdown("---")
     
     st.subheader("🌏 Sustainable Development Goals (SDGs)")
     st.write("SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security.")  
