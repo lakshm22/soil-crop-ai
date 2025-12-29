@@ -49,7 +49,7 @@ soil-crop-ai/
 │                    
 ├── data/
 │   ├── __init__.py
-│   ├── crop_mapping.py         # Soil-crop mapping and growing guidance
+│   └── crop_mapping.py         # Soil-crop mapping and growing guidance
 ├── utils/
 │   ├── __init__.py
 │   └── predictor.py            # Model loading and prediction functions
