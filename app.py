@@ -12,26 +12,19 @@ st.set_page_config(
 )
 
 # Sidebar
-with st.sidebar:
-    st.header("🌱 AI- Powered Soil Classification & Crop Recommendation")
-    st.write("""
-    Classifies soil and suggests suitable crops with detailed growing tips.
-    """)
-    st.sidebar.markdown("---")
-    
-    st.subheader("⚒️ Tech Stack")
-    st.write("- Python") 
-    st.write("- Scikit-learn (Decision Tree Classifier)")
-    st.write("- Streamlit")
-    st.write("- Pandas")
-    st.write("- NumPy")
-    st.write("- Joblib")
-    st.sidebar.markdown("---")
-    
-    st.subheader("🌏 Sustainable Development Goals (SDGs)")
-    st.write("SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security.")  
-    st.write("SDG 13: Climate Action – Reduce resource wastage and optimize farming.")  
-    st.write("SDG 15: Life on Land – Sustainably manage soil and land resources.")
+st.sidebar.title("Soil Classification & Crop Recommendation 🌱")
+with st.sidebar.expander("Project Description"):
+    st.write(
+        "Classifies soil and suggests suitable crops with detailed growing tips."
+    )
+
+
+with st.sidebar.expander("Tools Used"):
+    st.write("- Python  \n- Streamlit  \n- Scikit-learn (Decision Tree Classifier)  \n- Pandas  \n- NumPy \n- Joblib")
+
+
+with st.sidebar.expander("Sustainable Development Goals (SDGs) 🌏")
+    st.write("SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security. \n SDG 13: Climate Action – Reduce resource wastage and optimize farming. \n SDG 15: Life on Land – Sustainably manage soil and land resources.")  
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Created by [Lakshitha M](https://github.com/lakshm22)")
