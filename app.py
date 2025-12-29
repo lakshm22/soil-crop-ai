@@ -6,17 +6,12 @@ from data.crop_mapping import soil_crop_map, crop_guidance
 model = load_or_create_model()
 
 # Page config
-st.set_page_config(
-    page_title="Soil Classification & Crop Recommendation",
-    layout="wide"
-)
+st.set_page_config( page_title="Soil Classification & Crop Recommendation", page_icon="🌱", layout="wide" )
 
 # Sidebar
 st.sidebar.title("Soil Classification & Crop Recommendation 🌱")
 with st.sidebar.expander("Project Description"):
-    st.write(
-        "Classifies soil and suggests suitable crops with detailed growing tips."
-    )
+    st.write("Classifies soil and suggests suitable crops with detailed growing tips.")
 
 
 with st.sidebar.expander("Tools Used"):
