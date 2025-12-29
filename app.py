@@ -6,17 +6,15 @@ from data.crop_mapping import soil_crop_map, crop_guidance
 model = load_or_create_model()
 
 # Page config
-st.set_page_config( page_title="Soil Classification & Crop Recommendation", page_icon="🌱", layout="wide" )
+st.set_page_config( page_title="Soil Crop AI", page_icon="🌱", layout="wide" )
 
 # Sidebar
-st.sidebar.title("Soil Classification & Crop Recommendation 🌱")
+st.sidebar.title("Soil Crop AI 🌱")
 with st.sidebar.expander("Project Description"):
     st.write("Classifies soil and suggests suitable crops with detailed growing tips.")
 
-
 with st.sidebar.expander("Tools Used"):
     st.write("- Python  \n- Streamlit  \n- Scikit-learn (Decision Tree Classifier)  \n- Pandas  \n- NumPy \n- Joblib")
-
 
 with st.sidebar.expander("SDG Impact 🌏"):
     st.write("- SDG 2: Zero Hunger \n- SDG 13: Climate Action \n- SDG 15: Life on Land")  
