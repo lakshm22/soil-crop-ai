@@ -47,10 +47,10 @@ The app is built with **Python** and **Streamlit**, making it easy to run locall
 <pre>
 soil-crop-ai/
 │                    
-├── data/
+├── data/                       # Package containing all crop data
 │   ├── __init__.py
 │   └── crop_mapping.py         # Soil-crop mapping and growing guidance
-├── utils/
+├── utils/                      # Package containing loading and prediction models
 │   ├── __init__.py
 │   └── predictor.py            # Model loading and prediction functions
 ├── .gitignore
