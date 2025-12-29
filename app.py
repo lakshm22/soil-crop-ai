@@ -23,8 +23,8 @@ with st.sidebar.expander("Tools Used"):
     st.write("- Python  \n- Streamlit  \n- Scikit-learn (Decision Tree Classifier)  \n- Pandas  \n- NumPy \n- Joblib")
 
 
-with st.sidebar.expander("Sustainable Development Goals (SDGs) 🌏"):
-    st.write("- SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security. \n- SDG 13: Climate Action – Reduce resource wastage and optimize farming. \n- SDG 15: Life on Land – Sustainably manage soil and land resources.")  
+with st.sidebar.expander("SDG Impact 🌏"):
+    st.write("- SDG 2: Zero Hunger \n- SDG 13: Climate Action \n- SDG 15: Life on Land")  
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Created by [Lakshitha M](https://github.com/lakshm22)")
