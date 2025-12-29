@@ -25,10 +25,10 @@ with st.sidebar:
     st.write("- Streamlit for UI")
     st.write("- Pandas & NumPy for data handling")
     
-    st.subheader("Sustainable Development Goals (SDGs)")
-    st.write("2️⃣ SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security.")  
-    st.write("13️⃣ SDG 13: Climate Action – Reduce resource wastage and optimize farming for climate resilience.")  
-    st.write("15️⃣ SDG 15: Life on Land – Sustainably manage soil and land resources.")
+    st.subheader("🌏 Sustainable Development Goals (SDGs)")
+    st.write("SDG 2: Zero Hunger – Promote sustainable agriculture and improve food security.")  
+    st.write("SDG 13: Climate Action – Reduce resource wastage and optimize farming for climate resilience.")  
+    st.write("SDG 15: Life on Land – Sustainably manage soil and land resources.")
 st.sidebar.markdown("---")
 st.sidebar.caption("Created by [Lakshitha M](https://github.com/lakshm22)")
 
