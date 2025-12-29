@@ -25,6 +25,7 @@ with st.sidebar:
     st.write("- Streamlit")
     st.write("- Pandas")
     st.write("- NumPy")
+    st.write("- Joblib")
     st.sidebar.markdown("---")
     
     st.subheader("🌏 Sustainable Development Goals (SDGs)")
