@@ -15,9 +15,9 @@ The app is built with **Python** and **Streamlit**, making it easy to run locall
 
 ## Sustainable Development Goals (SDGs) Addressed
 
-- **SDG 2: Zero Hunger** – Promote sustainable agriculture and improve food security.  
-- **SDG 13: Climate Action** – Optimize farming and reduce resource wastage.  
-- **SDG 15: Life on Land** – Sustainably manage soil and land resources.
+- **SDG 2: Zero Hunger** 
+- **SDG 13: Climate Action** 
+- **SDG 15: Life on Land** 
 
 ---
 
@@ -25,18 +25,20 @@ The app is built with **Python** and **Streamlit**, making it easy to run locall
 
 - Predict soil type from user input parameters.
 - Suggest suitable crops for each soil type.
-- Provide detailed growing guidance for best harvest.
+- Provide detailed growing guidance for the best harvest.
 - Clean and interactive UI using Streamlit.
-- Auto-generates the model if not present (`soil_model.pkl`).
+- Uses a pre-trained model (`soil_model.pkl`) loaded with `joblib`.
 
 ---
 
 ## Tools & Stack
 
-- **Python 3**
-- **Scikit-learn** (Decision Tree Classifier)
-- **Streamlit** for UI
-- **Pandas & NumPy** for data handling
+- `Python`
+- `Scikit-learn` (Decision Tree Classifier)
+- `Streamlit`
+- `Pandas`
+- `NumPy`
+- `Joblib`
 
 ---
 
@@ -44,14 +46,17 @@ The app is built with **Python** and **Streamlit**, making it easy to run locall
 
 <pre>
 soil-crop-ai/
-│
-├── app.py                     # Main Streamlit app
+│                    
 ├── data/
 │   ├── __init__.py
 │   ├── crop_mapping.py         # Soil-crop mapping and growing guidance
-└── utils/
-    ├── __init__.py
-    └── predictor.py            # Model loading and prediction functions
+├── utils/
+│   ├── __init__.py
+│   └── predictor.py            # Model loading and prediction functions
+├── .gitignore
+├── README.md
+├── app.py                      # Main Streamlit app
+└── requirements.txt
 </pre>
 
 ---
