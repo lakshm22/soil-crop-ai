@@ -17,7 +17,7 @@ with st.sidebar.expander("Tools Used"):
     st.write("- Python  \n- Streamlit  \n- Scikit-learn (Decision Tree Classifier)  \n- Pandas  \n- NumPy \n- Joblib")
 
 with st.sidebar.expander("SDG Impact 🌏"):
-    st.write("- SDG 2: Zero Hunger \n- SDG 13: Climate Action \n- SDG 15: Life on Land")  
+    st.write("- SDG 2: Zero Hunger \n- SDG 12: Responsible Consumption and Production \n- SDG 13: Climate Action \n- SDG 15: Life on Land")  
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Created by [Lakshitha M](https://github.com/lakshm22)")
