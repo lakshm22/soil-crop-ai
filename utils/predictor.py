@@ -7,10 +7,6 @@ import joblib
 MODEL_PATH = "model/soil_model.pkl"
 
 def load_or_create_model():
-    """
-    Load pre-trained soil classification model if it exists.
-    Otherwise, create, train, and save the model.
-    """
     if not os.path.exists(MODEL_PATH):
         # Create model folder if missing
         os.makedirs("model", exist_ok=True)
