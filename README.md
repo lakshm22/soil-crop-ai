@@ -15,7 +15,8 @@ The app is built with **Python** and **Streamlit**, making it easy to run locall
 
 ## Sustainable Development Goals (SDGs) Addressed
 
-- **SDG 2: Zero Hunger** 
+- **SDG 2: Zero Hunger**
+- **SDG 12: Responsible Consumption and Production**
 - **SDG 13: Climate Action** 
 - **SDG 15: Life on Land** 
 
