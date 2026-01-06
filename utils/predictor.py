@@ -19,8 +19,8 @@ def load_or_create_model():
             "pH": [6.0, 6.5, 7.0, 6.8, 6.2, 7.1, 7.2, 6.1, 6.6, 6.9, 6.3, 7.0],
             "Moisture": [20, 30, 40, 35, 25, 38, 45, 22, 32, 37, 24, 42],
             "SoilType": [
-                "Sandy", "Loamy", "Clay", "Loamy", "Sandy", "Clay",
-                "Clay", "Sandy", "Loamy", "Clay", "Sandy", "Loamy"
+                "Sandy", "Loamy", "Clayey", "Loamy", "Sandy", "Clayey",
+                "Clayey", "Sandy", "Loamy", "Clayey", "Sandy", "Loamy"
             ]
         }
         df = pd.DataFrame(data)
