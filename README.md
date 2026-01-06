@@ -63,4 +63,8 @@ soil-crop-ai/
 ---
 
 ## Demo
+
+![Soil Classification and Crop Recommendation UI](<img width="920" height="410" alt="Soil-crop-ai-demo" src="https://github.com/user-attachments/assets/e1b2f6ba-366e-4260-926f-815b63df4ba4" />)
+
+
 Check out the live app here: [Soil Crop AI](https://soil-crop-ai-hwe7hdwhw9d8jakc4bdor5.streamlit.app/)
