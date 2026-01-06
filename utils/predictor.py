@@ -37,8 +37,5 @@ def load_or_create_model():
     return model
 
 def predict_soil(model, nitrogen, phosphorus, potassium, ph, moisture):
-    """
-    Predict soil type using the provided model.
-    """
     features = np.array([[nitrogen, phosphorus, potassium, ph, moisture]])
     return model.predict(features)[0]
