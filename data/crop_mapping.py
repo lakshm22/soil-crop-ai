@@ -1,7 +1,7 @@
 # Soil type crops mapping
 soil_crop_map = {
     "Sandy": ["Carrot", "Groundnut", "Watermelon", "Cucumber", "Radish", "Peanut", "Okra", "Sweet Potato", "Millet", "Pumpkin", "Tomato", "Chili", "Lemon"],
-    "Clay": ["Rice", "Broccoli", "Cabbage", "Soybean", "Cauliflower", "Mustard", "Spinach", "Lettuce", "Onion", "Garlic", "Fenugreek", "Brinjal", "Lemon"],
+    "Clayey": ["Rice", "Broccoli", "Cabbage", "Soybean", "Cauliflower", "Mustard", "Spinach", "Lettuce", "Onion", "Garlic", "Fenugreek", "Brinjal", "Lemon"],
     "Loamy": ["Wheat", "Tomato", "Sugarcane", "Cotton", "Maize", "Chili", "Pumpkin", "Potato", "Cabbage", "Carrot", "Capsicum", "Radish", "Lemon"],
     "Silt": ["Potato", "Onion", "Beans", "Lettuce", "Beetroot", "Peas", "Corn Salad", "Spinach", "Broccoli", "Cauliflower", "Chard", "Turnip", "Lemon"]
 }
